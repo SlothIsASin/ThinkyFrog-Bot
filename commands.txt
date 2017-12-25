@@ -1,0 +1,13 @@
+commands:
+	!mcs | !magic conch shell
+	!my elo ow 
+	!my elo lol
+	
+	!game game1, game2, game3 (ie. !game LoL, OW, D3, Hots, Civ5 outputs one of the former)
+	
+	_______________________________
+
+	!wdt | !who did this | !:joy: (probably like that: !wdt [either imgur link or screenshot]
+	!first (after league game, use op.gg; save counter)
+	!wowee (today's top post on /r/aww, differnetiate between imgur and gfycat)
+

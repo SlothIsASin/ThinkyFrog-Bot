@@ -10,8 +10,6 @@ import asyncio
 
 bot = commands.Bot(command_prefix = '!')
 
-#
-
 @bot.event
 async def on_ready():
 	print("Loaded and ready at: " + str(datetime.now().time()))
@@ -62,7 +60,7 @@ async def commands(ctx):
 	embed.add_field(name = "!ping", value = "pings at the bot, expecting a response (used to check the bot's status)", inline = True)
 	embed.add_field(name = "!elo", value = "displays your OverWatch Skill Rating", inline = True)
 	embed.add_field(name = "!mcs", value = "'magic conch shell' answers your question with 'yes' or 'no'", inline = True)
-	embed.add_field(name = "!vote", value = "opens a vote for 15 seconds, vote with 'voteYes' or 'voteNo'", inline = True)
+	embed.add_field(name = "!vote", value = "NOT IMPLEMENTED YET", inline = True)
 	embed.set_thumbnail(url = bot.user.avatar_url)
 
 	await bot.say(embed = embed)

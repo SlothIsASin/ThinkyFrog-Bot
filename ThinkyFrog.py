@@ -65,5 +65,5 @@ async def commands(ctx):
 
 	await bot.say(embed = embed)
 
-
-bot.run("Mzk0NTA1Mjg2MjgwNDEzMTg1.DSFmGw.oF-2UTMrJYqrk3GMTl48J8t4DYc")
+#read key
+bot.run("")
